@@ -4,4 +4,5 @@ import pandas as pd
 sys.path.append("..")
 import cocutils
 
-cocutils.dumpsc('./building_bases_tex.sc', './', False)
+# cocutils.dumpsc('./building_bases_tex.sc', './', False)
+cocutils.dumpsc('./buildings.csv', './', False)
