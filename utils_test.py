@@ -6,4 +6,4 @@ from utils import loadVersion
 def test_loadVersion():
     ver = loadVersion()
 
-    assert ver == 'v0.1.2'
+    assert ver == 'v0.1.3'

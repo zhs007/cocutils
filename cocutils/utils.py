@@ -66,5 +66,5 @@ def procDataFrame(df):
             curname = df.at[i, 'Name']
             curlevel = 1
 
-    df.drop([0])
+    return df.drop(0).reset_index(drop=True)
 
