@@ -6,3 +6,4 @@ PyYAML==5.3.1
 plotly==4.14.0
 requests==2.26.0
 openpyxl==3.0.9
+xlsxviewer==0.1.3
