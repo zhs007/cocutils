@@ -5,4 +5,5 @@ sys.path.append("..")
 import cocutils
 
 # cocutils.dumpsc('./building_bases_tex.sc', './', False)
-cocutils.dumpsc('./buildings.csv', './', False)
+# cocutils.dumpsc('./buildings.csv', './', False)
+cocutils.dumpSCPNG('./building_bases_tex.sc', './')
