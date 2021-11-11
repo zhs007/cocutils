@@ -1,1 +1,1 @@
-docker build -f ./Dockerfile -t xlsxviewer .
+docker build -f ./Dockerfile -t cocutils .
