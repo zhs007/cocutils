@@ -9,3 +9,4 @@ openpyxl==3.0.9
 xlsxviewer==0.1.3
 Pillow==8.4.0
 pylzham==0.1.2
+SupercellSWF

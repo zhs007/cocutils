@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 from utils import loadVersion
-from cocutils import procDataFrame
+from cocutils import procDataFrame, findAllFile, sc2png
 import pandas as pd
 import xlsxviewer
 
@@ -23,3 +23,7 @@ df1 = procDataFrame(df)
 df1.to_excel('./output/heroes.xlsx')
 xlsxviewer.genDataFrameScattersWithColumn(df1, 'Name', ['HP'], ['level'], ['Hitpoints'], './output/heroes_HP.html', 'lines', False)
 xlsxviewer.genDataFrameScattersWithColumn(df1, 'Name', ['DPS'], ['level'], ['DPS'], './output/heroes_DPS.html', 'lines', False)
+
+for fn in findAllFile('./cocsc/', '_tex.sc'):
+    print(fn)
+    sc2png(fn, './output')

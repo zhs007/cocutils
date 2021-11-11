@@ -130,3 +130,5 @@ dmypy.json
 
 coccsv
 output
+examples/*.png
+cocsc
